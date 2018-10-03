@@ -1,0 +1,18 @@
+2018-09-19 04:17:29.548  INFO 36920 --- [main] w.SpringBoot01HelloworldApplicationTests : Starting SpringBoot01HelloworldApplicationTests on DESKTOP-L1NC6PC with PID 36920 (started by thinkpad in D:\project\springboot\spring-boot-01-helloworld)
+2018-09-19 04:17:29.550 DEBUG 36920 --- [main] w.SpringBoot01HelloworldApplicationTests : Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-19 04:17:29.560  INFO 36920 --- [main] w.SpringBoot01HelloworldApplicationTests : No active profile set, falling back to default profiles: default
+2018-09-19 04:17:29.735  INFO 36920 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1919693: startup date [Wed Sep 19 04:17:29 AWST 2018]; root of context hierarchy
+2018-09-19 04:17:35.307  INFO 36920 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-19 04:17:36.281  INFO 36920 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1919693: startup date [Wed Sep 19 04:17:29 AWST 2018]; root of context hierarchy
+2018-09-19 04:17:36.695  INFO 36920 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.wzl.controller.HelloController.hello()
+2018-09-19 04:17:36.714  INFO 36920 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-19 04:17:36.715  INFO 36920 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-19 04:17:36.865  INFO 36920 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-19 04:17:36.869  INFO 36920 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-19 04:17:37.853  INFO 36920 --- [main] w.SpringBoot01HelloworldApplicationTests : Started SpringBoot01HelloworldApplicationTests in 9.812 seconds (JVM running for 15.468)
+2018-09-19 04:17:38.416 TRACE 36920 --- [main] w.SpringBoot01HelloworldApplicationTests : 这是test日志
+2018-09-19 04:17:38.416 DEBUG 36920 --- [main] w.SpringBoot01HelloworldApplicationTests : this is debug log
+2018-09-19 04:17:38.420  INFO 36920 --- [main] w.SpringBoot01HelloworldApplicationTests : this is info log
+2018-09-19 04:17:38.422  WARN 36920 --- [main] w.SpringBoot01HelloworldApplicationTests : this is warn log
+2018-09-19 04:17:38.422 ERROR 36920 --- [main] w.SpringBoot01HelloworldApplicationTests : this is error log
+2018-09-19 04:17:38.484  INFO 36920 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1919693: startup date [Wed Sep 19 04:17:29 AWST 2018]; root of context hierarchy

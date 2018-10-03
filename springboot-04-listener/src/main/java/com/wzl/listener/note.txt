@@ -1,0 +1,8 @@
+事件监听机制
+配置在META-INF/spring.factories
+ApplicationContextInitializer
+SpringApplicationRunListener
+
+只需要放在ioc容器中,价格@Component注解就好了
+ApplicationRunner
+CommandLinedRunner
